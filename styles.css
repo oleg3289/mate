@@ -1,0 +1,253 @@
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.greenLine {
+	height: 10px;
+	background: #2ecc71;
+}
+
+.main {
+	background: url(images/iphone.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+	height: 600px;
+}
+
+.notify h1{
+	font-family: 'Homemade Apple';
+	color: #fff;
+	font-size: 4em;
+	margin-top: 150px;
+}
+
+#greenDot {
+	color: #2ecc71;
+}
+
+.notify p {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+.icon-item {
+	display: inline-block;
+	height: 53px;
+	width: 53px;
+	background: #000;
+	opacity: 0.5;
+	border-radius: 27px;
+}
+
+.icon-item a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+.icon-img {
+	padding-top: 14px;
+}
+
+.icon-item:hover {
+	background: #2ecc71;
+	opacity: 1;
+}
+
+.featuresElems {
+	margin-top: 55px;
+}
+
+.featuresElems h4 {
+	font-weight: 700;
+}
+
+.featuresElems p {
+	color: #848484;
+}
+
+#video {
+	background: #e3e3e3;
+}
+
+.videoArea p {
+	color: #848484;
+}
+
+.videoArea h4 {
+	font-weight: 700;
+}
+
+.videoArea .input-group {
+	width: 450px;
+}
+
+.videoArea input {
+	padding: 18px;
+	border-radius: 16px;
+}
+
+.videoArea input:focus {
+	box-shadow: none;
+}
+
+.videoArea button {
+	padding: 0px 30px 0px 30px;
+	font-size: 1.4em;
+	color: #fff;
+	background: #2ecc71;
+	border-radius: 16px;
+}
+
+.videoArea button:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.videoArea button:hover {
+	background: #1ebc61;
+}
+
+#peoples p {
+	color: #848484;
+	font-size: 1.2em;
+}
+
+#peoples h5 {
+	font-weight: 900;
+	font-size: 1.3em;
+}
+
+#peoples a {
+	display: inline-block;
+	position: relative;
+	width: 50px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+}
+
+#peoples a:last-child {
+	width: 43px;
+}
+
+#peoples a:first-child {
+	width: 44px;
+}
+
+.layer {   
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #2ecc71;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+
+.layer:hover  {
+	opacity: 0.7;
+}
+
+#social h2 {
+	font-weight: 700;
+}
+
+#social p {
+	color: #848484;
+}
+
+#social a {
+	display: inline-block;
+	background: #d4d4d4;
+	height: 34px;
+	width: 34px;
+	border-radius: 17px;
+	margin-right: 4px;
+}
+
+#social a:hover {
+	background: #62d995;
+}
+
+footer {
+	background: #e3e3e3;
+}
+
+footer a {
+	color: #848484;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #62d995;
+}
+
+@media screen and (max-width: 1420px) {
+	iframe {
+		width: 420px;
+		height: 236px;
+	}
+}
+
+@media screen and (max-width: 1223px) {
+	.videoArea .input-group {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.videoArea .input-group {
+		width: auto;
+	}
+	iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
+
+@media screen and (max-width: 619px) {
+	iframe {
+		width: 420px;
+		height: 236px;
+	}
+}
+
+@media screen and (max-width: 451px) {
+	iframe {
+		width: 310px;
+		height: 174px;
+	}
+}
+
+@media screen and (max-width: 337px) {
+	iframe {
+		width: 250px;
+		height: 141px;
+	}
+	body {
+		font-size: 0.7em !important;
+	}
+}
+
+@media screen and (max-width: 275px) {
+	iframe {
+		width: 180px;
+		height: 101px;
+	}
+	footer a {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 208px) {
+	iframe {
+		width: 140px;
+		height: 79px;
+	}
+	.videoArea button {
+		padding: 8px;
+	}
+}
